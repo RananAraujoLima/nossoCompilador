@@ -43,6 +43,6 @@ public class ArrowToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "ATRIB";
+        return "ARROW";
     }
 }
