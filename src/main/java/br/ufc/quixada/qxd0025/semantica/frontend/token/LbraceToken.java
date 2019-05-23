@@ -1,9 +1,9 @@
 package br.ufc.quixada.qxd0025.semantica.frontend.token;
 
 /**
- * Classe que representa um token do tipo (Times).
+ * Classe que representa um token do tipo ({).
  */
-public class TimesToken extends Token{
+public class LbraceToken extends Token{
     /**
      * Valor que o lexema deste token representa.
      * <p>
@@ -13,7 +13,7 @@ public class TimesToken extends Token{
      */
 
     protected char charValue;
-    public TimesToken(long line, long start, String value) throws IllegalArgumentException {
+    public LbraceToken(long line, long start, String value) throws IllegalArgumentException {
         super(line, start, value);
     }
 
@@ -43,6 +43,6 @@ public class TimesToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "TIMES";
+        return "LBRACE";
     }
 }
