@@ -43,6 +43,6 @@ public class DonToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "ATRIB";
+        return "DON";
     }
 }

@@ -43,6 +43,6 @@ public class TimesToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "Times";
+        return "TIMES";
     }
 }

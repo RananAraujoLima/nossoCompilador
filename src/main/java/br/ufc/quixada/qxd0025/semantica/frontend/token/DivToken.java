@@ -43,6 +43,6 @@ public class DivToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "ATRIB";
+        return "DIV";
     }
 }

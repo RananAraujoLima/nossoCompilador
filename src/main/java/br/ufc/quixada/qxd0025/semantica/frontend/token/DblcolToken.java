@@ -43,6 +43,6 @@ public class DblcolToken extends Token{
 
     @Override
     public String getTokenIdentifier() {
-        return "ATRIB";
+        return "DBLCOL";
     }
 }
